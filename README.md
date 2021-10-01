@@ -9,7 +9,7 @@ Gesture Based - Touchless ATM demonstrates a novel way of interacting with ATM m
     - ```pip install opencv-python```<br>
     - ```pip install mediapipe```<br>
     - ```pip install face_recognition```<br>
-2. Please create a directory/folder named as “Faces” (case sensitive and without quotes) to store the images of human faces to be matched with faces in video frame.
+2. Please create a directory/folder named as “Faces” (case sensitive and without quotes) to store the images of human faces to be matched with faces in video frame. Only ```.jpeg``` and ```.jpg``` file formats to be included.
 3. Have a look at the file ```config.py``` in which various configuration parameters are mentioned with their usage. Modify these as per your needs or preferences. Elements such as buttons and text shown on all the pages will be adjusted as per these parameters.<br>
 
 **Note:** While making changes to ```screen_x``` and ```screen_y``` variables in config file, remember that resolution of your webcam should be the maximum resolution you set and not your screen resolution.
@@ -17,7 +17,9 @@ Gesture Based - Touchless ATM demonstrates a novel way of interacting with ATM m
 
 ## Usage:
 
-You just need two things - your face and one hand. Begin by placing your face in the video frame and with your finger, select the Match button shown on first screen as follows:<br><br>
+You just need two things - your face and one hand. To start the app, please run ```main.py``` file.
+
+Begin by placing your face in the video frame and with your finger, select the Match button shown on first screen as follows:<br><br>
 ![Blurred face](https://user-images.githubusercontent.com/25917944/135302560-1f9d16c3-d7b9-4270-933a-6eaa9ffaae76.png)<br><br>
 
 If your face matches with faces from at least one image in the Faces folder, you should be able to go ahead and do the following:<br><br>
